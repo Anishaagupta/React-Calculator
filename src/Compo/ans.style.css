@@ -1,0 +1,10 @@
+.result {
+  width: 100%;
+  height: 60%;
+  background-color: teal;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+}
