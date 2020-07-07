@@ -25,6 +25,7 @@ class App extends Component {
 
   cal = () => {
     try {
+      // eslint-disable-next-line
       this.setState({ answer: eval(this.state.answer) + '' });
     } catch (e) {
       this.setState({ answer: 'Error' });
